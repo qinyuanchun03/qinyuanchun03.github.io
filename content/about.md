@@ -3,6 +3,10 @@ title: "关于网站"
 date: 2023-12-20
 draft: false
 ---
+### 联系作者
+
+ 什么？作者托更了？通过这里找到他，拿起皮鞭催更吧！
+![qqpd](static/images/qrcodes/vxt.png)
 
 
 
