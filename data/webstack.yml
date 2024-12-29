@@ -134,6 +134,13 @@
       url: https://www.gndown.com/
       description: 绿色简单的软件下载站，资源丰富
 
+- taxonomy: 游戏佬专区
+  icon: fa-star
+  links: 
+    - title: 风灵月影官方网站
+      url: https://flingtrainer.com/
+      description: 作者的博客网站
+
 - taxonomy: 编程教学
   icon: fa-star
   links: 
