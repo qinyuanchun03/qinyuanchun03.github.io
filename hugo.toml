@@ -1,18 +1,18 @@
-baseURL = "http://example.org/"
+baseURL = "https://nav.jianghu.cfd/"
 languageCode = "zh-CN"
-title = "江湖笔者导航站"
+title = "江湖丰登导航：你最好的导航网站"
 theme = "hugo-webstack"
 
 #true:允许大写字母url路径，false:将url路径转换成小写
 disablePathToLower = true
 
 #页脚：作者名字
-copyright = "江湖笔者"
+copyright = "江湖丰登"
 
 #网站信息，不显示，仅供搜索引擎参考
 [params]
-  keywords = "网址导航,webstack,hugo,vpn,科学上网，免费节点，聚合导航，江湖笔者"
-  description = "Webstack Hugo版主题,网址导航"
+  keywords = "网址导航,webstack,丰登导航,vpn,科学上网，免费节点，聚合导航，江湖丰登"
+  description = "一个江湖笔者的站点，把简单带进你的生活"
 
 #是否开启搜索栏，true开启，false关闭
 [params.search]
