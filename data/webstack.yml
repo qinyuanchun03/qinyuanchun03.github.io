@@ -25,7 +25,13 @@
       description: 国产科大讯飞AI 
     - title: 百度文心一言
       url: https://yiyan.baidu.com/welcome
-      description: 国产科大讯飞AI 
+      description: 国产科大讯飞AI
+    - title: chatgpt
+      url: https://chatgpt.com/
+      description: 需要网络辅助才可以进去 
+    - title: Gemini
+      url: https://gemini.google.com/
+      description: 需要网络辅助才可以进去          
 
 - taxonomy: 网络和浏览器相关
   icon: fa-star
