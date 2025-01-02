@@ -6,6 +6,10 @@
       url: https://blog1.jianghu.cfd
       logo: images/jh-blogs/ico.png
       description: 作者的博客网站
+    - title: 江湖笔者博客（防丢失）
+      url: https://go.jianghu.cfd
+      logo: images/jh-blogs/ico.png
+      description: 作者的博客网站
 
 - taxonomy: AI工具
   icon: fa-star
