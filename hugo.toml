@@ -12,7 +12,7 @@ copyright = "江湖丰登"
 #网站信息，不显示，仅供搜索引擎参考
 [params]
   keywords = "网址导航,webstack,丰登导航,vpn,科学上网，免费节点，聚合导航，江湖丰登"
-  description = "一个江湖笔者的站点，把简单带进你的生活"
+  description = "把简单带进你的生活"
 
 #是否开启搜索栏，true开启，false关闭
 [params.search]
