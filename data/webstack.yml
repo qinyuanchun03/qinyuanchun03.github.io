@@ -10,6 +10,14 @@
       url: https://go.jianghu.cfd
       logo: images/jh-blogs/ico.png
       description: 作者的博客网站
+    - title: 文档库（持续更新中）
+      url: https://hugo1.jianghu.cfd/
+      logo: images/jh-blogs/ico.png
+      description: 不熟悉本站可阅读文档了解  
+    - title: 文档库第二入口（持续更新中）
+      url: https://docs.jianghu.cfd/
+      logo: images/jh-blogs/ico.png
+      description: 不熟悉本站可阅读文档了解
 
 - taxonomy: AI工具
   icon: fa-star
