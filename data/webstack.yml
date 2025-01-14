@@ -64,6 +64,9 @@
     - title: 图吧工具箱
       url: https://www.tbtool.cn/
       description: 图吧工具箱，集成多种硬件检测和系统优化工具
+    - title: Geek Uninstaller
+      url: https://geekuninstaller.com/
+      description: Geek Uninstaller，轻量级软件卸载工具，彻底清理残留文件      
 
 - taxonomy: 小游戏
   icon: fa-star
@@ -300,6 +303,40 @@
     - title: 绿软小站
       url: https://www.gndown.com/
       description: 绿色简单的软件下载站，资源丰富
+
+- taxonomy: 办公资源模板
+  icon: fa-star
+  links: 
+    - title: OfficePlus
+      url: https://www.officeplus.cn/
+      description: OfficePlus，微软官方模板库，提供免费PPT、Word、Excel模板
+    - title: 第一PPT
+      url: https://www.1ppt.com/
+      description: 第一PPT，海量免费PPT模板、素材和教程资源
+    - title: 优品PPT
+      url: https://www.ypppt.com/
+      description: 优品PPT，提供高质量的免费PPT模板和素材
+    - title: 51PPT模板
+      url: http://www.51pptmoban.com/
+      description: 51PPT模板，免费PPT模板下载站点，分类齐全
+    - title: PPT宝藏
+      url: http://www.pptbz.com/
+      description: PPT宝藏，免费PPT模板、图表、背景和素材资源
+    - title: ExcelHome
+      url: https://www.excelhome.net/
+      description: ExcelHome，提供Excel模板、教程和技巧分享
+    - title: 稻壳儿
+      url: https://www.docer.com/
+      description: 稻壳儿，WPS官方资源平台，部分免费PPT、Word、Excel模板
+    - title: Slidesgo
+      url: https://www.slidesgo.com/
+      description: Slidesgo，提供免费PPT和Google Slides模板，设计精美
+    - title: Template.net
+      url: https://www.template.net/
+      description: Template.net，免费办公模板资源，包括PPT、Word、Excel
+    - title: Canva
+      url: https://www.canva.com/
+      description: Canva，在线设计工具，提供免费PPT模板和设计素材      
 
       
 
