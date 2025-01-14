@@ -110,21 +110,46 @@
       url: https://nic.us.kg/
       description: USKG域名注册，专业的域名注册和管理服务提供商      
       
-- taxonomy: 网络和浏览器相关
+- taxonomy: 网络工具
   icon: fa-star
   links: 
-    - title: ITdog在线工具
+    - title: ITDOG
       url: https://www.itdog.cn/
-      description: 测试域名，IP，路由追踪等功能
-    - title: IP.sb在线IP鉴别工具
+      description: ITDOG，提供网络监控、Ping测试、路由追踪等工具
+    - title: WhatIsMyIP
+      url: https://www.whatismyip.com/
+      description: WhatIsMyIP，快速查询您的公网IP地址和网络信息
+    - title: ip.sb
       url: https://ip.sb/
-      description: 测试域名，IP，路由追踪等功能
-    - title: WhatisMYIP
-      url: https://whatismyipaddress.com/
-      description: 测试域名，IP，路由追踪等功能
-    - title: crx搜搜插件大集合
-      url: https://whatismyipaddress.com/
-      description: 好用的浏览器扩展，都在这里下载   
+      description: ip.sb，简洁的IP地址查询工具，支持IPv4和IPv6
+
+- taxonomy: 浏览器扩展和美化
+  icon: fa-star
+  links: 
+    - title: Greasy Fork
+      url: https://greasyfork.org/
+      description: Greasy Fork，用户脚本分享平台，支持多种浏览器
+    - title: OpenUserJS
+      url: https://openuserjs.org/
+      description: OpenUserJS，开源的用户脚本分享平台
+    - title: UserStyles
+      url: https://userstyles.org/
+      description: UserStyles，浏览器样式美化资源分享平台
+    - title: Crx4Chrome
+      url: https://www.crx4chrome.com/
+      description: Crx4Chrome，提供Chrome扩展的离线下载
+    - title: Extfans
+      url: https://www.extfans.com/
+      description: Extfans，国内Chrome扩展下载站点
+    - title: Crx搜搜
+      url: https://www.crxsoso.com/
+      description: Crx搜搜，提供Chrome扩展的搜索和下载服务
+    - title: Chrome扩展迷
+      url: https://www.extfans.com/
+      description: Chrome扩展迷，国内Chrome扩展下载和推荐站点
+    - title: 扩展仓库
+      url: https://www.extfans.com/
+      description: 扩展仓库，提供Chrome扩展的下载和安装指南      
       
 - taxonomy: 小说专区
   icon: fa-star
@@ -238,6 +263,19 @@
     - title: 绿软小站
       url: https://www.gndown.com/
       description: 绿色简单的软件下载站，资源丰富
+    - title: iTab 新标签页
+      url: https://www.itab.link/
+      description: iTab，简洁高效的新标签页工具，支持个性化定制
+    - title: uBlock Origin
+      url: https://ublockorigin.com/
+      description: uBlock Origin，高效、轻量级的广告拦截工具
+    - title: ScriptCat
+      url: https://scriptcat.org/
+      description: ScriptCat，用户脚本管理工具，支持脚本自动更新和调试
+    - title: 沉浸式翻译
+      url: https://immersivetranslate.com/
+      description: 沉浸式翻译，提供网页和PDF的双语对照翻译功能
+      
 
 - taxonomy: 游戏佬专区
   icon: fa-star
@@ -269,7 +307,7 @@
       url:  https://www.toolg.cn/
       description: 支持多种功能的在线工具箱！
       
-- taxonomy: 云服务器
+- taxonomy: VPS/机场专区
   icon: fa-star
   links: 
     - title: RN-VPS
