@@ -475,9 +475,22 @@
     - title: 三分机场
       url: https://shop.sanfen.co/register?code=eXgbn5jO
       description: 请去官网查查看
+    - title: 魔戒
+      url: https://mojie.co/register?aff=3FdSG3AE
+      description: 魔戒，提供稳定的网络服务
+    - title: GT节点
+      url: https://shuttle.gt-all.com/aff.php?aff=8837
+      description: GT节点，提供高速稳定的网络服务
+    - title: 深蓝
+      url: https://www.blueyun.us/#/register?code=nRTPHmco
+      description: 深蓝，提供高性能云服务和网络解决方案      
     - title: 此部分介绍
-      url: https:/blog1.jianghu.cfd/free-personal-node/
+      url: https://blog1.jianghu.cfd/free-personal-node/
       description: 请去官网查查看
+    - title: Vultr
+      url: https://www.vultr.com/
+      description: Vultr，高性能云服务器，支持按小时计费
+
 
 - taxonomy: 联系与反馈
   icon: fa-star
