@@ -105,6 +105,27 @@
       url: https://www.juxiaoshuo.net/
       description: 免费小说聚集地 
 
+- taxonomy: 在线书库
+  icon: fa-star
+  links: 
+    - title: Project Gutenberg
+      url: https://www.gutenberg.org/
+      description: Project Gutenberg，提供超过6万本免费电子书
+    - title: Internet Archive
+      url: https://archive.org/
+      description: Internet Archive，数字图书馆，提供书籍、电影、音乐等资源
+    - title: Open Library
+      url: https://openlibrary.org/
+      description: Open Library，开放的图书馆目录，提供数百万本电子书
+    - title: Google Books
+      url: https://books.google.com/
+      description: Google Books，全球最大的在线书库之一
+    - title: HathiTrust
+      url: https://www.hathitrust.org/
+      description: HathiTrust，学术机构合作的数字图书馆
+    - title: Z-Library
+      url: https://zh.z-lib.gs/
+      description: Z-Library，全球最大的电子书和文章资源库之一
     
 - taxonomy: 安卓小巧好用的软件
   icon: fa-star
