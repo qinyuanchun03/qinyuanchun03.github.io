@@ -1,503 +1,509 @@
-- taxonomy: 个人与博客资源
-  icon: fa-star
-  links:
-    - title: 江湖笔者博客
-      url: https://blog1.jianghu.cfd
-      logo: images/jh-blogs/ico.png
-      description: 作者的博客网站
-    - title: 博客防丢失链接
-      url: https://go.jianghu.cfd
-      logo: images/jh-blogs/ico.png
-      description: 作者的博客网站
-    - title: 文档库（持续更新中）
-      url: https://hugo1.jianghu.cfd/
-      logo: images/jh-blogs/ico.png
-      description: 不熟悉本站可阅读文档了解
+- taxonomy: 科研办公
+  icon: fas fa-flask fa-lg
+  list:
+    - term: 学术文献
+      links:
+        - title: Google Scholar
+          url: https://scholar.google.com/
+          description: 全球学术资源的搜索引擎。
+        - title: PubMed
+          url: https://pubmed.ncbi.nlm.nih.gov/
+          description: 生物医学领域的文献数据库。
+        - title: arXiv
+          url: https://arxiv.org/
+          description: 开放获取的学术论文预印本平台。
+        - title: IEEE Xplore
+          url: https://ieeexplore.ieee.org/
+          description: 工程与技术领域的学术文献库。
+        - title: ResearchGate
+          url: https://www.researchgate.net/
+          description: 科研人员的社交网络与文献分享平台。
+        - title: Zotero
+          url: https://www.zotero.org/
+          description: 文献管理和引用工具。
+        - title: EndNote
+          url: https://endnote.com/
+          description: 专业的文献管理和参考文献格式化工具。
+        - title: Mendeley
+          url: https://www.mendeley.com/
+          description: 文献管理和学术社交平台。
+
+    - term: 云服务器
+      links:
+        - title: 京东云
+          url: https://www.jdcloud.com/
+          description: 提供云计算、大数据、人工智能等一站式服务。
+        - title: 华为云
+          url: https://www.huaweicloud.com/
+          description: 全球领先的云计算服务提供商。
+        - title: 腾讯云
+          url: https://cloud.tencent.com/
+          description: 提供稳定、安全、高效的云服务。
+        - title: Vultr
+          url: https://www.vultr.com/
+          description: 高性能云服务器，支持按小时计费。
 
 - taxonomy: AI工具
-  icon: fa-star
-  links:
-    - title: 豆包AI
-      url: https://www.doubao.com/
-      description: 豆包AI，你的专属助手
-    - title: DeepSeek
-      url: https://www.deepseek.com/
-      description: DeepSeek，探索人工智能的无限可能
-    - title: Kimi AI助手
-      url: https://kimi.moonshot.cn/
-      description: Kimi AI助手，支持生成PPT!
-    - title: 讯飞星火AI
-      url: https://xinghuo.xfyun.cn/
-      description: 国产科大讯飞AI
-    - title: 百度文心一言
-      url: https://yiyan.baidu.com/welcome
-      description: 国产科大讯飞AI
-    - title: ChatGPT
-      url: https://chatgpt.com/
-      description: 需要网络辅助才可以进去
-    - title: Gemini
-      url: https://gemini.google.com/
-      description: 需要网络辅助才可以进去
+  icon: fas fa-robot fa-lg
+  list:
+    - term: 文本生成
+      links:
+        - title: 豆包AI
+          url: https://www.doubao.com/
+          description: 豆包AI，你的专属助手。
+        - title: DeepSeek
+          url: https://www.deepseek.com/
+          description: DeepSeek，探索人工智能的无限可能。
+        - title: Kimi AI助手
+          url: https://kimi.moonshot.cn/
+          description: Kimi AI助手，支持生成PPT!
+        - title: 讯飞星火AI
+          url: https://xinghuo.xfyun.cn/
+          description: 国产科大讯飞AI。
+        - title: 百度文心一言
+          url: https://yiyan.baidu.com/welcome
+          description: 国产科大讯飞AI。
+        - title: ChatGPT
+          url: https://chatgpt.com/
+          description: 需要网络辅助才可以进去。
+        - title: Gemini
+          url: https://gemini.google.com/
+          description: 需要网络辅助才可以进去。
 
 - taxonomy: 电脑与软件工具
-  icon: fa-star
-  links:
-    - title: 7-Zip
-      url: https://www.7-zip.org/
-      description: 7-Zip，开源免费的文件压缩和解压工具，支持多种格式
-    - title: Bandizip
-      url: https://www.bandisoft.com/bandizip/
-      description: Bandizip，轻量级压缩软件，界面简洁，功能强大
-    - title: PotPlayer
-      url: https://potplayer.daum.net/
-      description: PotPlayer，功能强大的多媒体播放器，支持多种音视频格式
-    - title: Visual Studio Code (VSCode)
-      url: https://code.visualstudio.com/
-      description: VSCode，微软开发的免费代码编辑器，支持多种编程语言
-    - title: Typora
-      url: https://typora.io/
-      description: Typora，简洁优雅的Markdown编辑器，实时预览
-    - title: Obsidian
-      url: https://obsidian.md/
-      description: Obsidian，基于Markdown的笔记工具，支持知识图谱
-    - title: 图吧工具箱
-      url: https://www.tbtool.cn/
-      description: 图吧工具箱，集成多种硬件检测和系统优化工具
-    - title: Geek Uninstaller
-      url: https://geekuninstaller.com/
-      description: Geek Uninstaller，轻量级软件卸载工具，彻底清理残留文件
-
-- taxonomy: 互联网资源与下载
-  icon: fa-star
-  links:
-    - title: Softonic
-      url: https://www.softonic.com/
-      description: Softonic，提供免费软件下载，涵盖多种类别
-    - title: CNET Download
-      url: https://download.cnet.com/
-      description: CNET Download，老牌软件下载站，提供免费和试用版软件
-    - title: FileHippo
-      url: https://filehippo.com/
-      description: FileHippo，提供免费软件下载，支持旧版本软件
-    - title: SourceForge
-      url: https://sourceforge.net/
-      description: SourceForge，开源软件下载平台，提供免费工具和应用程序
-    - title: 华军软件园
-      url: http://www.onlinedown.net/
-      description: 华军软件园，国内老牌软件下载站，资源丰富
-    - title: 小众软件
-      url: https://www.appinn.com/
-      description: 小众软件，推荐实用、免费的软件工具
-    - title: MajorGeeks
-      url: https://www.majorgeeks.com/
-      description: MajorGeeks，提供免费软件下载，专注于实用工具
-    - title: PortableApps
-      url: https://portableapps.com/
-      description: PortableApps，提供便携版免费软件，无需安装即可使用
-    - title: FossHub
-      url: https://www.fosshub.com/
-      description: FossHub，提供开源和免费软件下载
-    - title: Softpedia
-      url: https://www.softpedia.com/
-      description: Softpedia，提供免费软件下载，涵盖多种操作系统
-    - title: Ninite
-      url: https://ninite.com/
-      description: Ninite，一键安装多个常用免费软件的工具
+  icon: fas fa-laptop fa-lg
+  list:
+    - term: 文件管理
+      links:
+        - title: 7-Zip
+          url: https://www.7-zip.org/
+          description: 开源免费的文件压缩和解压工具，支持多种格式。
+        - title: Bandizip
+          url: https://www.bandisoft.com/bandizip/
+          description: 轻量级压缩软件，界面简洁，功能强大。
+        - title: Geek Uninstaller
+          url: https://geekuninstaller.com/
+          description: 轻量级软件卸载工具，彻底清理残留文件。
+    - term: 多媒体工具
+      links:
+        - title: PotPlayer
+          url: https://potplayer.daum.net/
+          description: 功能强大的多媒体播放器，支持多种音视频格式。
+    - term: 开发工具
+      links:
+        - title: Visual Studio Code (VSCode)
+          url: https://code.visualstudio.com/
+          description: 微软开发的免费代码编辑器，支持多种编程语言。
+        - title: Typora
+          url: https://typora.io/
+          description: 简洁优雅的Markdown编辑器，实时预览。
+        - title: Obsidian
+          url: https://obsidian.md/
+          description: 基于Markdown的笔记工具，支持知识图谱。
+    - term: 系统工具
+      links:
+        - title: 图吧工具箱
+          url: https://www.tbtool.cn/
+          description: 集成多种硬件检测和系统优化工具。
 
 - taxonomy: 娱乐与休闲
-  icon: fa-star
-  links:
-    - title: 4399小游戏
-      url: https://www.4399.com/
-      description: 4399小游戏，休闲娱乐的最佳选择
-    - title: 7K7K小游戏
-      url: https://www.7k7k.com/
-      description: 7K7K小游戏，畅玩各类在线小游戏
-    - title: 落雪音乐免费下载+免费音源
-      url: https://www.123684.com/s/AJ3VVv-IrcBd
-      description: 免费开源的音乐软件，支持安卓和Windows，Linux（国产系统）
-    - title: 花花吧影视
-      url: https://huaweiba.live/
-      description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
-    - title: 樱花资源网
-      url: https://yhzy.cc//
-      description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
-    - title: 云解析网
-      url: https://www.yparse.com/
-      description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
-    - title: ikun资源网
-      url: https://www.ikunzy.com/
-      description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
-    - title: 非凡资源网
-      url: http://ffzy.tv/
-      description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
-    - title: 江湖在线视频解析站
-      url: https://moviejx.jianghu.cfd/
-      description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
+  icon: fas fa-gamepad fa-lg
+  list:
+    - term: 小游戏
+      links:
+        - title: 4399小游戏
+          url: https://www.4399.com/
+          description: 4399小游戏，休闲娱乐的最佳选择。
+        - title: 7K7K小游戏
+          url: https://www.7k7k.com/
+          description: 7K7K小游戏，畅玩各类在线小游戏。
+    - term: 影视音乐
+      links:
+        - title: 落雪音乐免费下载+免费音源
+          url: https://www.123684.com/s/AJ3VVv-IrcBd
+          description: 免费开源的音乐软件，支持安卓和Windows，Linux（国产系统）。
+        - title: 花花吧影视
+          url: https://huaweiba.live/
+          description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
+        - title: 樱花资源网
+          url: https://yhzy.cc//
+          description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
+        - title: 云解析网
+          url: https://www.yparse.com/
+          description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
+        - title: ikun资源网
+          url: https://www.ikunzy.com/
+          description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
+        - title: 非凡资源网
+          url: http://ffzy.tv/
+          description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
+        - title: 江湖在线视频解析站
+          url: https://moviejx.jianghu.cfd/
+          description: 免费的在线影视网站，借助m3u8解析工具可在线观看，全程免费！
 
-- taxonomy: 学术与文献
-  icon: fa-star
-  links:
-    - title: Google Scholar
-      url: https://scholar.google.com/
-      description: Google Scholar，全球学术资源的搜索引擎
-    - title: PubMed
-      url: https://pubmed.ncbi.nlm.nih.gov/
-      description: PubMed，生物医学领域的文献数据库
-    - title: arXiv
-      url: https://arxiv.org/
-      description: arXiv，开放获取的学术论文预印本平台
-    - title: IEEE Xplore
-      url: https://ieeexplore.ieee.org/
-      description: IEEE Xplore，工程与技术领域的学术文献库
-    - title: ResearchGate
-      url: https://www.researchgate.net/
-      description: ResearchGate，科研人员的社交网络与文献分享平台
-    - title: AISeek
-      url: https://www.aiseek.ai/
-      description: AISeek，基于人工智能的论文写作辅助工具
-    - title: Grammarly
-      url: https://www.grammarly.com/
-      description: Grammarly，英语语法检查和写作辅助工具
-    - title: Zotero
-      url: https://www.zotero.org/
-      description: Zotero，文献管理和引用工具
-    - title: EndNote
-      url: https://endnote.com/
-      description: EndNote，专业的文献管理和参考文献格式化工具
-    - title: Mendeley
-      url: https://www.mendeley.com/
-      description: Mendeley，文献管理和学术社交平台
-
-- taxonomy: 云服务与网络工具
-  icon: fa-star
-  links:
-    - title: 京东云
-      url: https://www.jdcloud.com/
-      description: 京东云，提供云计算、大数据、人工智能等一站式服务
-    - title: 华为云
-      url: https://www.huaweicloud.com/
-      description: 华为云，全球领先的云计算服务提供商
-    - title: 腾讯云
-      url: https://cloud.tencent.com/
-      description: 腾讯云，提供稳定、安全、高效的云服务
-    - title: Cloudflare
-      url: https://www.cloudflare.com/
-      description: 赛博活佛，提供CDN,DNS解析，域名托管等多种服务
-    - title: ClouDNS
-      url: https://www.cloudns.net/
-      description: ClouDNS，提供免费的DNS解析和域名管理服务
-    - title: USKG域名注册
-      url: https://nic.us.kg/
-      description: USKG域名注册，专业的域名注册和管理服务提供商
-    - title: ITDOG
-      url: https://www.itdog.cn/
-      description: ITDOG，提供网络监控、Ping测试、路由追踪等工具
-    - title: WhatIsMyIP
-      url: https://www.whatismyip.com/
-      description: WhatIsMyIP，快速查询您的公网IP地址和网络信息
-    - title: ip.sb
-      url: https://ip.sb/
-      description: ip.sb，简洁的IP地址查询工具，支持IPv4和IPv6
+- taxonomy: 网络工具与服务
+  icon: fas fa-network-wired fa-lg
+  list:
+    - term: 网络工具
+      links:
+        - title: ITDOG
+          url: https://www.itdog.cn/
+          description: 提供网络监控、Ping测试、路由追踪等工具。
+        - title: WhatIsMyIP
+          url: https://www.whatismyip.com/
+          description: 快速查询您的公网IP地址和网络信息。
+        - title: ip.sb
+          url: https://ip.sb/
+          description: 简洁的IP地址查询工具，支持IPv4和IPv6。
+    - term: 网络服务
+      links:
+        - title: Cloudflare
+          url: https://www.cloudflare.com/
+          description: 赛博活佛，提供CDN,DNS解析，域名托管等多种服务。
+        - title: ClouDNS
+          url: https://www.cloudns.net/
+          description: 提供免费的DNS解析和域名管理服务。
+        - title: USKG域名注册
+          url: https://nic.us.kg/
+          description: 专业的域名注册和管理服务提供商。
 
 - taxonomy: 浏览器扩展与美化
-  icon: fa-star
-  links:
-    - title: Greasy Fork
-      url: https://greasyfork.org/
-      description: Greasy Fork，用户脚本分享平台，支持多种浏览器
-    - title: OpenUserJS
-      url: https://openuserjs.org/
-      description: OpenUserJS，开源的用户脚本分享平台
-    - title: UserStyles
-      url: https://userstyles.org/
-      description: UserStyles，浏览器样式美化资源分享平台
-    - title: Crx4Chrome
-      url: https://www.crx4chrome.com/
-      description: Crx4Chrome，提供Chrome扩展的离线下载
-    - title: Extfans
-      url: https://www.extfans.com/
-      description: Extfans，国内Chrome扩展下载站点
-    - title: Crx搜搜
-      url: https://www.crxsoso.com/
-      description: Crx搜搜，提供Chrome扩展的搜索和下载服务
-    - title: Chrome扩展迷
-      url: https://www.extfans.com/
-      description: Chrome扩展迷，国内Chrome扩展下载和推荐站点
-    - title: 扩展仓库
-      url: https://www.extfans.com/
-      description: 扩展仓库，提供Chrome扩展的下载和安装指南
-    - title: iTab 新标签页
-      url: https://www.itab.link/
-      description: iTab，简洁高效的新标签页工具，支持个性化定制
-    - title: uBlock Origin
-      url: https://ublockorigin.com/
-      description: uBlock Origin，高效、轻量级的广告拦截工具
-    - title: ScriptCat
-      url: https://scriptcat.org/
-      description: ScriptCat，用户脚本管理工具，支持脚本自动更新和调试
-    - title: 沉浸式翻译
-      url: https://immersivetranslate.com/
-      description: 沉浸式翻译，提供网页和PDF的双语对照翻译功能
+  icon: fas fa-paint-brush fa-lg
+  list:
+    - term: 扩展与脚本
+      links:
+        - title: Greasy Fork
+          url: https://greasyfork.org/
+          description: 用户脚本分享平台，支持多种浏览器。
+        - title: OpenUserJS
+          url: https://openuserjs.org/
+          description: 开源的用户脚本分享平台。
+        - title: Crx4Chrome
+          url: https://www.crx4chrome.com/
+          description: 提供Chrome扩展的离线下载。
+        - title: Extfans
+          url: https://www.extfans.com/
+          description: 国内Chrome扩展下载站点。
+        - title: Crx搜搜
+          url: https://www.crxsoso.com/
+          description: 提供Chrome扩展的搜索和下载服务。
+        - title: Chrome扩展迷
+          url: https://www.extfans.com/
+          description: 国内Chrome扩展下载和推荐站点。
+        - title: 扩展仓库
+          url: https://www.extfans.com/
+          description: 提供Chrome扩展的下载和安装指南。
+        - title: ScriptCat
+          url: https://scriptcat.org/
+          description: 用户脚本管理工具，支持脚本自动更新和调试。
+    - term: 浏览器美化
+      links:
+        - title: UserStyles
+          url: https://userstyles.org/
+          description: 浏览器样式美化资源分享平台。
+        - title: iTab 新标签页
+          url: https://www.itab.link/
+          description: 简洁高效的新标签页工具，支持个性化定制。
+        - title: uBlock Origin
+          url: https://ublockorigin.com/
+          description: 高效、轻量级的广告拦截工具。
+        - title: 沉浸式翻译
+          url: https://immersivetranslate.com/
+          description: 提供网页和PDF的双语对照翻译功能。
 
 - taxonomy: 小说与阅读
-  icon: fa-star
-  links:
-    - title: 笔趣阁免费小鼠
-      url: https://www.bqgui.cc/
-      description: 免费小说聚集地
-    - title: PD文学
-      url: https://www.pofans.com/
-      description: 免费小说聚集地
-    - title: 全本小说
-      url: https://www.quanben.so/
-      description: 免费小说聚集地
-    - title: 聚小说
-      url: https://www.juxiaoshuo.net/
-      description: 免费小说聚集地
-    - title: Project Gutenberg
-      url: https://www.gutenberg.org/
-      description: Project Gutenberg，提供超过6万本免费电子书
-    - title: Internet Archive
-      url: https://archive.org/
-      description: Internet Archive，数字图书馆，提供书籍、电影、音乐等资源
-    - title: Open Library
-      url: https://openlibrary.org/
-      description: Open Library，开放的图书馆目录，提供数百万本电子书
-    - title: Google Books
-      url: https://books.google.com/
-      description: Google Books，全球最大的在线书库之一
-    - title: HathiTrust
-      url: https://www.hathitrust.org/
-      description: HathiTrust，学术机构合作的数字图书馆
-    - title: Z-Library
-      url: https://zh.z-lib.gs/
-      description: Z-Library，全球最大的电子书和文章资源库之一
+  icon: fas fa-book fa-lg
+  list:
+    - term: 小说资源
+      links:
+        - title: 笔趣阁免费小鼠
+          url: https://www.bqgui.cc/
+          description: 免费小说聚集地。
+        - title: PD文学
+          url: https://www.pofans.com/
+          description: 免费小说聚集地。
+        - title: 全本小说
+          url: https://www.quanben.so/
+          description: 免费小说聚集地。
+        - title: 聚小说
+          url: https://www.juxiaoshuo.net/
+          description: 免费小说聚集地。
+    - term: 在线书库
+      links:
+        - title: Project Gutenberg
+          url: https://www.gutenberg.org/
+          description: 提供超过6万本免费电子书。
+        - title: Internet Archive
+          url: https://archive.org/
+          description: 数字图书馆，提供书籍、电影、音乐等资源。
+        - title: Open Library
+          url: https://openlibrary.org/
+          description: 开放的图书馆目录，提供数百万本电子书。
+        - title: Google Books
+          url: https://books.google.com/
+          description: 全球最大的在线书库之一。
+        - title: HathiTrust
+          url: https://www.hathitrust.org/
+          description: 学术机构合作的数字图书馆。
+        - title: Z-Library
+          url: https://zh.z-lib.gs/
+          description: 全球最大的电子书和文章资源库之一。
 
 - taxonomy: 安卓实用工具
-  icon: fa-star
-  links:
-    - title: via浏览器
-      url: https://viayoo.com/zh-cn/
-      description: 简洁支持广告屏蔽的浏览器
-    - title: X浏览器
-      url: https://viayoo.com/zh-cn/
-      description: 简洁支持广告屏蔽的浏览器
-    - title: via和x浏览器广告屏蔽规则
-      url: https://blog1.moshangyanyu.us.kg/via/
-      description: X浏览器和VIA通用的广告屏蔽规则
-    - title: OnlyOffice手机版（支持iOS）
-      url: https://download.onlyoffice.com/install/mobile/android/onlyoffice-documents.apk
-      description: 支持Word/excel/ppt/pdf等主流格式，完全免费,点击开始下载
-    - title: 开源：阅读软件
-      url: https://gedoor.github.io/download
-      description: 开源免费的手机端多格式阅读软件
-    - title: 开源：阅读软件：书源
-      url: https://bolg.nanshunkj.com/2024/11/25/260.html
-      description: 开源免费的手机端多格式阅读软件免费书源
-    - title: Obsidian笔记软件
-      url: https://wwdx.lanzoue.com/b030yr97g
-      description: 免费多功能，可自定义云盘备份的笔记软件
-    - title: 安卓谷歌商店
-      url: https://www.gndown.com/4319.html
-      description: 请结合参考资料使用，避免影响正常使用
+  icon: fas fa-mobile-alt fa-lg
+  list:
+    - term: 浏览器
+      links:
+        - title: via浏览器
+          url: https://viayoo.com/zh-cn/
+          description: 简洁支持广告屏蔽的浏览器。
+        - title: X浏览器
+          url: https://viayoo.com/zh-cn/
+          description: 简洁支持广告屏蔽的浏览器。
+        - title: via和x浏览器广告屏蔽规则
+          url: https://blog1.moshangyanyu.us.kg/via/
+          description: X浏览器和VIA通用的广告屏蔽规则。
+    - term: 办公工具
+      links:
+        - title: OnlyOffice手机版（支持iOS）
+          url: https://download.onlyoffice.com/install/mobile/android/onlyoffice-documents.apk
+          description: 支持Word/excel/ppt/pdf等主流格式，完全免费,点击开始下载。
+    - term: 阅读工具
+      links:
+        - title: 开源：阅读软件
+          url: https://gedoor.github.io/download
+          description: 开源免费的手机端多格式阅读软件。
+        - title: 开源：阅读软件：书源
+          url: https://bolg.nanshunkj.com/2024/11/25/260.html
+          description: 开源免费的手机端多格式阅读软件免费书源。
+    - term: 笔记工具
+      links:
+        - title: Obsidian笔记软件
+          url: https://wwdx.lanzoue.com/b030yr97g
+          description: 免费多功能，可自定义云盘备份的笔记软件。
+    - term: 应用商店
+      links:
+        - title: 安卓谷歌商店
+          url: https://www.gndown.com/4319.html
+          description: 请结合参考资料使用，避免影响正常使用。
 
 - taxonomy: 办公与设计资源
-  icon: fa-star
-  links:
-    - title: WPS聚合分享
-      url: https://www.123684.com/s/AJ3VVv-MrcBd
-      description: 仅支持Win用户，国产系统和Linux用户请不要下载
-    - title: OfficeToolPlus部署工具
-      url: https://otp.landian.vip/zh-cn/
-      description: 免费的office安装激活工具，官方提供操作教学
-    - title: PDF24在线处理网站
-      url: https://tools.pdf24.org/zh/
-      description: 免费的在线PDF处理工具，支持PDF转word等功能
-    - title: 1024程序员在线工具箱
-      url: https://1024tools.com/
-      description: 支持uuid生成，json格式化等多功能的程序员工具箱
-    - title: 第一ppt免费模板素材
-      url: https://www.1ppt.com/
-      description: 免费ppt模板下载站！！！
-    - title: 绿软小站
-      url: https://www.gndown.com/
-      description: 绿色简单的软件下载站，资源丰富
-    - title: OfficePlus
-      url: https://www.officeplus.cn/
-      description: OfficePlus，微软官方模板库，提供免费PPT、Word、Excel模板
-    - title: 第一PPT
-      url: https://www.1ppt.com/
-      description: 第一PPT，海量免费PPT模板、素材和教程资源
-    - title: 优品PPT
-      url: https://www.ypppt.com/
-      description: 优品PPT，提供高质量的免费PPT模板和素材
-    - title: 51PPT模板
-      url: http://www.51pptmoban.com/
-      description: 51PPT模板，免费PPT模板下载站点，分类齐全
-    - title: PPT宝藏
-      url: http://www.pptbz.com/
-      description: PPT宝藏，免费PPT模板、图表、背景和素材资源
-    - title: ExcelHome
-      url: https://www.excelhome.net/
-      description: ExcelHome，提供Excel模板、教程和技巧分享
-    - title: 稻壳儿
-      url: https://www.docer.com/
-      description: 稻壳儿，WPS官方资源平台，部分免费PPT、Word、Excel模板
-    - title: Slidesgo
-      url: https://www.slidesgo.com/
-      description: Slidesgo，提供免费PPT和Google Slides模板，设计精美
-    - title: Template.net
-      url: https://www.template.net/
-      description: Template.net，免费办公模板资源，包括PPT、Word、Excel
-    - title: Canva
-      url: https://www.canva.com/
-      description: Canva，在线设计工具，提供免费PPT模板和设计素材
+  icon: fas fa-file-alt fa-lg
+  list:
+    - term: 办公工具
+      links:
+        - title: WPS聚合分享
+          url: https://www.123684.com/s/AJ3VVv-MrcBd
+          description: 仅支持Win用户，国产系统和Linux用户请不要下载。
+        - title: OfficeToolPlus部署工具
+          url: https://otp.landian.vip/zh-cn/
+          description: 免费的office安装激活工具，官方提供操作教学。
+        - title: PDF24在线处理网站
+          url: https://tools.pdf24.org/zh/
+          description: 免费的在线PDF处理工具，支持PDF转word等功能。
+        - title: 1024程序员在线工具箱
+          url: https://1024tools.com/
+          description: 支持uuid生成，json格式化等多功能的程序员工具箱。
+    - term: 模板资源
+      links:
+        - title: 第一ppt免费模板素材
+          url: https://www.1ppt.com/
+          description: 免费ppt模板下载站！！！
+        - title: OfficePlus
+          url: https://www.officeplus.cn/
+          description: 微软官方模板库，提供免费PPT、Word、Excel模板。
+        - title: 第一PPT
+          url: https://www.1ppt.com/
+          description: 海量免费PPT模板、素材和教程资源。
+        - title: 优品PPT
+          url: https://www.ypppt.com/
+          description: 提供高质量的免费PPT模板和素材。
+        - title: 51PPT模板
+          url: http://www.51pptmoban.com/
+          description: 免费PPT模板下载站点，分类齐全。
+        - title: PPT宝藏
+          url: http://www.pptbz.com/
+          description: 免费PPT模板、图表、背景和素材资源。
+        - title: ExcelHome
+          url: https://www.excelhome.net/
+          description: 提供Excel模板、教程和技巧分享。
+        - title: 稻壳儿
+          url: https://www.docer.com/
+          description: WPS官方资源平台，部分免费PPT、Word、Excel模板。
+        - title: Slidesgo
+          url: https://www.slidesgo.com/
+          description: 提供免费PPT和Google Slides模板，设计精美。
+        - title: Template.net
+          url: https://www.template.net/
+          description: 免费办公模板资源，包括PPT、Word、Excel。
+        - title: Canva
+          url: https://www.canva.com/
+          description: 在线设计工具，提供免费PPT模板和设计素材。
 
 - taxonomy: 编程与开发
-  icon: fa-star
-  links:
-    - title: 菜鸟教学
-      url: https://www.runoob.com/
-      description: 多语言，内容丰富的编程教学网站，提供各类案例解析
-    - title: w3School编程教学
-      url: https://www.w3school.com.cn/html/index.asp
-      description: 多语言，内容丰富的编程教学网站，提供各类案例解析
-    - title: GitHub
-      url: https://github.com/
-      description: GitHub，全球最大的代码托管平台，支持开源项目和协作开发
-    - title: GitLab
-      url: https://about.gitlab.com/
-      description: GitLab，提供代码托管、CI/CD和DevOps工具的一体化平台
-    - title: Bitbucket
-      url: https://bitbucket.org/
-      description: Bitbucket，支持Git和Mercurial的代码托管平台，集成Jira和Trello
-    - title: Gitee
-      url: https://gitee.com/
-      description: Gitee，国内知名的代码托管平台，支持开源和私有仓库
-    - title: SourceForge
-      url: https://sourceforge.net/
-      description: SourceForge，老牌开源软件托管平台，提供代码托管和下载服务
-    - title: Codeberg
-      url: https://codeberg.org/
-      description: Codeberg，基于Git的开源代码托管平台，注重隐私和自由
-    - title: GitKraken
-      url: https://www.gitkraken.com/
-      description: GitKraken，提供Git客户端和代码托管服务，支持可视化操作
-    - title: Vercel
-      url: https://vercel.com/
-      description: Vercel，支持前端项目的在线部署和托管，集成GitHub和GitLab
-    - title: Netlify
-      url: https://www.netlify.com/
-      description: Netlify，提供静态网站托管和自动化部署服务
-    - title: Heroku
-      url: https://www.heroku.com/
-      description: Heroku，支持多种编程语言的云应用托管平台
-    - title: Render
-      url: https://render.com/
-      description: Render，提供Web服务、静态站点和数据库的托管与部署
-    - title: DigitalOcean App Platform
-      url: https://www.digitalocean.com/products/app-platform/
-      description: DigitalOcean App Platform，支持一键部署和托管应用
+  icon: fas fa-code fa-lg
+  list:
+    - term: 编程教学
+      links:
+        - title: 菜鸟教学
+          url: https://www.runoob.com/
+          description: 多语言，内容丰富的编程教学网站，提供各类案例解析。
+        - title: w3School编程教学
+          url: https://www.w3school.com.cn/html/index.asp
+          description: 多语言，内容丰富的编程教学网站，提供各类案例解析。
+    - term: 代码托管
+      links:
+        - title: GitHub
+          url: https://github.com/
+          description: 全球最大的代码托管平台，支持开源项目和协作开发。
+        - title: GitLab
+          url: https://about.gitlab.com/
+          description: 提供代码托管、CI/CD和DevOps工具的一体化平台。
+        - title: Bitbucket
+          url: https://bitbucket.org/
+          description: 支持Git和Mercurial的代码托管平台，集成Jira和Trello。
+        - title: Gitee
+          url: https://gitee.com/
+          description: 国内知名的代码托管平台，支持开源和私有仓库。
+        - title: SourceForge
+          url: https://sourceforge.net/
+          description: 老牌开源软件托管平台，提供代码托管和下载服务。
+        - title: Codeberg
+          url: https://codeberg.org/
+          description: 基于Git的开源代码托管平台，注重隐私和自由。
+        - title: GitKraken
+          url: https://www.gitkraken.com/
+          description: 提供Git客户端和代码托管服务，支持可视化操作。
+        - title: Vercel
+          url: https://vercel.com/
+          description: 支持前端项目的在线部署和托管，集成GitHub和GitLab。
+        - title: Netlify
+          url: https://www.netlify.com/
+          description: 提供静态网站托管和自动化部署服务。
+        - title: Heroku
+          url: https://www.heroku.com/
+          description: 支持多种编程语言的云应用托管平台。
+        - title: Render
+          url: https://render.com/
+          description: 提供Web服务、静态站点和数据库的托管与部署。
+        - title: DigitalOcean App Platform
+          url: https://www.digitalocean.com/products/app-platform/
+          description: 支持一键部署和托管应用。
 
 - taxonomy: 游戏与修改工具
-  icon: fa-star
-  links:
-    - title: 风灵月影官方网站
-      url: https://flingtrainer.com/
-      description: 强大的修改器尽在这里
+  icon: fas fa-gamepad fa-lg
+  list:
+    - term: 游戏工具
+      links:
+        - title: 风灵月影官方网站
+          url: https://flingtrainer.com/
+          description: 强大的修改器尽在这里。
 
 - taxonomy: 在线工具箱
-  icon: fa-star
-  links:
-    - title: Smallpdf
-      url: https://smallpdf.com/
-      description: Smallpdf，多功能PDF工具箱，支持PDF转换、编辑、压缩等
-    - title: Online-Convert
-      url: https://www.online-convert.com/
-      description: Online-Convert，支持多种文件格式转换的在线工具
-    - title: Convertio
-      url: https://convertio.co/
-      description: Convertio，在线文件转换工具，支持图像、音频、视频等格式
-    - title: ILovePDF
-      url: https://www.ilovepdf.com/
-      description: ILovePDF，PDF工具箱，支持合并、拆分、压缩和转换等功能
-    - title: TinyPNG
-      url: https://tinypng.com/
-      description: TinyPNG，在线图片压缩工具，支持PNG和JPEG格式
-    - title: Remove.bg
-      url: https://www.remove.bg/
-      description: Remove.bg，在线图片背景去除工具，一键抠图
-    - title: Jsfiddle
-      url: https://jsfiddle.net/
-      description: Jsfiddle，在线代码编辑和调试工具，支持HTML/CSS/JavaScript
-    - title: CodePen
-      url: https://codepen.io/
-      description: CodePen，在线前端代码编辑和分享平台
-    - title: JSON Formatter
-      url: https://jsonformatter.curiousconcept.com/
-      description: JSON Formatter，在线JSON格式化工具，支持验证和美化
-    - title: Base64 Decode
-      url: https://www.base64decode.org/
-      description: Base64 Decode，在线Base64编码和解码工具
-    - title: Regex101
-      url: https://regex101.com/
-      description: Regex101，在线正则表达式测试工具，支持多种编程语言
-    - title: WebFX Tools
-      url: https://www.webfx.com/tools/
-      description: WebFX Tools，提供多种在线工具，包括SEO、图像处理和开发工具
-    - title: Browserling
-      url: https://www.browserling.com/
-      description: Browserling，在线浏览器测试工具，支持跨浏览器兼容性测试
-    - title: OnlineOCR
-      url: https://www.onlineocr.net/
-      description: OnlineOCR，在线OCR工具，支持从图像中提取文本
+  icon: fas fa-toolbox fa-lg
+  list:
+    - term: 文件处理
+      links:
+        - title: Smallpdf
+          url: https://smallpdf.com/
+          description: 多功能PDF工具箱，支持PDF转换、编辑、压缩等。
+        - title: Online-Convert
+          url: https://www.online-convert.com/
+          description: 支持多种文件格式转换的在线工具。
+        - title: Convertio
+          url: https://convertio.co/
+          description: 在线文件转换工具，支持图像、音频、视频等格式。
+        - title: ILovePDF
+          url: https://www.ilovepdf.com/
+          description: PDF工具箱，支持合并、拆分、压缩和转换等功能。
+    - term: 图像处理
+      links:
+        - title: TinyPNG
+          url: https://tinypng.com/
+          description: 在线图片压缩工具，支持PNG和JPEG格式。
+        - title: Remove.bg
+          url: https://www.remove.bg/
+          description: 在线图片背景去除工具，一键抠图。
+    - term: 开发工具
+      links:
+        - title: Jsfiddle
+          url: https://jsfiddle.net/
+          description: 在线代码编辑和调试工具，支持HTML/CSS/JavaScript。
+        - title: CodePen
+          url: https://codepen.io/
+          description: 在线前端代码编辑和分享平台。
+        - title: JSON Formatter
+          url: https://jsonformatter.curiousconcept.com/
+          description: 在线JSON格式化工具，支持验证和美化。
+        - title: Base64 Decode
+          url: https://www.base64decode.org/
+          description: 在线Base64编码和解码工具。
+        - title: Regex101
+          url: https://regex101.com/
+          description: 在线正则表达式测试工具，支持多种编程语言。
+        - title: WebFX Tools
+          url: https://www.webfx.com/tools/
+          description: 提供多种在线工具，包括SEO、图像处理和开发工具。
+        - title: Browserling
+          url: https://www.browserling.com/
+          description: 在线浏览器测试工具，支持跨浏览器兼容性测试。
+        - title: OnlineOCR
+          url: https://www.onlineocr.net/
+          description: 在线OCR工具，支持从图像中提取文本。
 
-      
 - taxonomy: VPS与网络服务
-  icon: fa-star
-  links:
-    - title: RN-VPS
-      url: https://my.racknerd.com/aff.php?aff=11799
-      description: 低价高速的VPS！
-    - title: 艾云服务器
-      url: https://iaclouds.com/aff.php?aff=1878
-      description: 香港艾云网络
-    - title: Mitce强烈推荐
-      url: https://mitce.com/aff.php?aff=10965
-      description: 请点击反馈查看测评内容
-    - title: Mitce介绍
-      url: https://blog1.jianghu.cfd/posts/mict.html
-      description: 请点击反馈查看测评内容
-    - title: 一分机场
-      url: https://yfjc.xyz/#/register?code=ZCA61k3t
-      description: 请去官网查查看
-    - title: 三分机场
-      url: https://shop.sanfen.co/register?code=eXgbn5jO
-      description: 请去官网查查看
-    - title: 魔戒
-      url: https://mojie.co/register?aff=3FdSG3AE
-      description: 魔戒，提供稳定的网络服务
-    - title: GT节点
-      url: https://shuttle.gt-all.com/aff.php?aff=8837
-      description: GT节点，提供高速稳定的网络服务
-    - title: 深蓝
-      url: https://www.blueyun.us/#/register?code=nRTPHmco
-      description: 深蓝，提供高性能云服务和网络解决方案      
-    - title: 此部分介绍
-      url: https://blog1.jianghu.cfd/free-personal-node/
-      description: 请去官网查查看
-    - title: Vultr
-      url: https://www.vultr.com/
-      description: Vultr，高性能云服务器，支持按小时计费
-
+  icon: fas fa-server fa-lg
+  list:
+    - term: VPS服务
+      links:
+        - title: RN-VPS
+          url: https://my.racknerd.com/aff.php?aff=11799
+          description: 低价高速的VPS！
+        - title: 艾云服务器
+          url: https://iaclouds.com/aff.php?aff=1878
+          description: 香港艾云网络。
+        - title: Mitce强烈推荐
+          url: https://mitce.com/aff.php?aff=10965
+          description: 请点击反馈查看测评内容。
+        - title: Mitce介绍
+          url: https://blog1.jianghu.cfd/posts/mict.html
+          description: 请点击反馈查看测评内容。
+        - title: 一分机场
+          url: https://yfjc.xyz/#/register?code=ZCA61k3t
+          description: 请去官网查查看。
+        - title: 三分机场
+          url: https://shop.sanfen.co/register?code=eXgbn5jO
+          description: 请去官网查查看。
+        - title: 魔戒
+          url: https://mojie.co/register?aff=3FdSG3AE
+          description: 魔戒，提供稳定的网络服务。
+        - title: GT节点
+          url: https://shuttle.gt-all.com/aff.php?aff=8837
+          description: GT节点，提供高速稳定的网络服务。
+        - title: 深蓝
+          url: https://www.blueyun.us/#/register?code=nRTPHmco
+          description: 深蓝，提供高性能云服务和网络解决方案。
+        - title: Vultr
+          url: https://www.vultr.com/
+          description: 高性能云服务器，支持按小时计费。
 
 - taxonomy: 联系与反馈
-  icon: fa-star
-  links:
-    - title: 来这里看看吧
-      url: https://blog1.jianghu.cfd/index/
-      description: 想去催更，快去看看！（不要用代理进）
-    - title: 问题反馈：看说明
-      url: https://blog1.jianghu.cfd/talkback/
-      description: 想去催更，快去看看！（不要用代理进）
+  icon: fas fa-envelope fa-lg
+  list:
+    - term: 联系作者
+      links:
+        - title: 江湖笔者博客
+          url: https://blog1.jianghu.cfd
+          logo: images/jh-blogs/ico.png
+          description: 作者的博客网站。
+        - title: 博客防丢失链接
+          url: https://go.jianghu.cfd
+          logo: images/jh-blogs/ico.png
+          description: 作者的博客网站。
+        - title: 文档库（持续更新中）
+          url: https://hugo1.jianghu.cfd/
+          logo: images/jh-blogs/ico.png
+          description: 不熟悉本站可阅读文档了解。
+        - title: 问题反馈：看说明
+          url: https://blog1.jianghu.cfd/talkback/
+          description: 想去催更，快去看看！（不要用代理进）。
