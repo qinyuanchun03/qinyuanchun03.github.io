@@ -44,7 +44,7 @@
       url: https://gemini.google.com/
       description: 需要网络辅助才可以进去          
 
-- taxonomy: 常用工具
+- taxonomy: 小游戏
   icon: fa-star
   links: 
     - title: 4399小游戏
@@ -53,6 +53,25 @@
     - title: 7K7K小游戏
       url: https://www.7k7k.com/
       description: 7K7K小游戏，畅玩各类在线小游戏
+
+- taxonomy: 文献/论文
+  icon: fa-star
+  links: 
+    - title: Google Scholar
+      url: https://scholar.google.com/
+      description: Google Scholar，全球学术资源的搜索引擎
+    - title: PubMed
+      url: https://pubmed.ncbi.nlm.nih.gov/
+      description: PubMed，生物医学领域的文献数据库
+    - title: arXiv
+      url: https://arxiv.org/
+      description: arXiv，开放获取的学术论文预印本平台
+    - title: IEEE Xplore
+      url: https://ieeexplore.ieee.org/
+      description: IEEE Xplore，工程与技术领域的学术文献库
+    - title: ResearchGate
+      url: https://www.researchgate.net/
+      description: ResearchGate，科研人员的社交网络与文献分享平台
       
 - taxonomy: 网络和浏览器相关
   icon: fa-star
