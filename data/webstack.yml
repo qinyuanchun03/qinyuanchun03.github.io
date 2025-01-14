@@ -410,16 +410,50 @@
 - taxonomy: 在线工具箱
   icon: fa-star
   links:
-    - title: 在线工具
-      url: https://tool.lu/
-      description: 支持多种功能的在线工具箱！
-    - title: 一个工具箱
-      url: http://www.atoolbox.net/
-      description: 支持多种功能的在线工具箱！
-    - title: 工具狗
-      url: https://www.toolg.cn/
-      description: 支持多种功能的在线工具箱！
+    - title: Smallpdf
+      url: https://smallpdf.com/
+      description: Smallpdf，多功能PDF工具箱，支持PDF转换、编辑、压缩等
+    - title: Online-Convert
+      url: https://www.online-convert.com/
+      description: Online-Convert，支持多种文件格式转换的在线工具
+    - title: Convertio
+      url: https://convertio.co/
+      description: Convertio，在线文件转换工具，支持图像、音频、视频等格式
+    - title: ILovePDF
+      url: https://www.ilovepdf.com/
+      description: ILovePDF，PDF工具箱，支持合并、拆分、压缩和转换等功能
+    - title: TinyPNG
+      url: https://tinypng.com/
+      description: TinyPNG，在线图片压缩工具，支持PNG和JPEG格式
+    - title: Remove.bg
+      url: https://www.remove.bg/
+      description: Remove.bg，在线图片背景去除工具，一键抠图
+    - title: Jsfiddle
+      url: https://jsfiddle.net/
+      description: Jsfiddle，在线代码编辑和调试工具，支持HTML/CSS/JavaScript
+    - title: CodePen
+      url: https://codepen.io/
+      description: CodePen，在线前端代码编辑和分享平台
+    - title: JSON Formatter
+      url: https://jsonformatter.curiousconcept.com/
+      description: JSON Formatter，在线JSON格式化工具，支持验证和美化
+    - title: Base64 Decode
+      url: https://www.base64decode.org/
+      description: Base64 Decode，在线Base64编码和解码工具
+    - title: Regex101
+      url: https://regex101.com/
+      description: Regex101，在线正则表达式测试工具，支持多种编程语言
+    - title: WebFX Tools
+      url: https://www.webfx.com/tools/
+      description: WebFX Tools，提供多种在线工具，包括SEO、图像处理和开发工具
+    - title: Browserling
+      url: https://www.browserling.com/
+      description: Browserling，在线浏览器测试工具，支持跨浏览器兼容性测试
+    - title: OnlineOCR
+      url: https://www.onlineocr.net/
+      description: OnlineOCR，在线OCR工具，支持从图像中提取文本
 
+      
 - taxonomy: VPS与网络服务
   icon: fa-star
   links:
