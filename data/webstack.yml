@@ -338,7 +338,48 @@
       url: https://www.canva.com/
       description: Canva，在线设计工具，提供免费PPT模板和设计素材      
 
-      
+- taxonomy: 设计资源与工具
+  icon: fa-star
+  links: 
+    - title: Behance
+      url: https://www.behance.net/
+      description: Adobe旗下的设计师作品展示平台，灵感来源
+    - title: Dribbble
+      url: https://dribbble.com/
+      description: 全球设计师社区，分享UI/UX设计和平面设计作品
+    - title: Figma
+      url: https://www.figma.com/
+      description: 在线UI/UX设计工具，支持团队协作
+    - title: Canva
+      url: https://www.canva.com/
+      description: 在线平面设计工具，提供模板和素材
+    - title: Freepik
+      url: https://www.freepik.com/
+      description: 免费矢量图、照片和PSD素材资源
+    - title: Unsplash
+      url: https://unsplash.com/
+      description: 免费高质量图片素材库
+    - title: Pexels Videos
+      url: https://www.pexels.com/videos/
+      description: Pexels，免费高质量视频素材库
+    - title: Pixabay Videos
+      url: https://pixabay.com/videos/
+      description: Pixabay，免费视频素材，无版权限制
+    - title: Coverr
+      url: https://coverr.co/
+      description: Coverr，免费视频素材，适合网页背景和设计项目
+    - title: Mixkit
+      url: https://mixkit.co/
+      description: Mixkit，免费高质量视频、音乐和音效资源
+    - title: Videvo
+      url: https://www.videvo.net/
+      description: Videvo，免费视频素材和动态图形资源
+    - title: FontAwesome
+      url: https://fontawesome.com/
+      description: 免费图标字体库，适合网页和UI设计
+    - title: Google Fonts
+      url: https://fonts.google.com/
+      description: 免费开源字体库，适合设计和开发      
 
 - taxonomy: 游戏佬专区
   icon: fa-star
