@@ -150,6 +150,18 @@
     - title: 扩展仓库
       url: https://www.extfans.com/
       description: 扩展仓库，提供Chrome扩展的下载和安装指南      
+    - title: iTab 新标签页
+      url: https://www.itab.link/
+      description: iTab，简洁高效的新标签页工具，支持个性化定制
+    - title: uBlock Origin
+      url: https://ublockorigin.com/
+      description: uBlock Origin，高效、轻量级的广告拦截工具
+    - title: ScriptCat
+      url: https://scriptcat.org/
+      description: ScriptCat，用户脚本管理工具，支持脚本自动更新和调试
+    - title: 沉浸式翻译
+      url: https://immersivetranslate.com/
+      description: 沉浸式翻译，提供网页和PDF的双语对照翻译功能      
       
 - taxonomy: 小说专区
   icon: fa-star
@@ -263,18 +275,7 @@
     - title: 绿软小站
       url: https://www.gndown.com/
       description: 绿色简单的软件下载站，资源丰富
-    - title: iTab 新标签页
-      url: https://www.itab.link/
-      description: iTab，简洁高效的新标签页工具，支持个性化定制
-    - title: uBlock Origin
-      url: https://ublockorigin.com/
-      description: uBlock Origin，高效、轻量级的广告拦截工具
-    - title: ScriptCat
-      url: https://scriptcat.org/
-      description: ScriptCat，用户脚本管理工具，支持脚本自动更新和调试
-    - title: 沉浸式翻译
-      url: https://immersivetranslate.com/
-      description: 沉浸式翻译，提供网页和PDF的双语对照翻译功能
+
       
 
 - taxonomy: 游戏佬专区
