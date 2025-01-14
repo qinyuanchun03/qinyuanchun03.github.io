@@ -14,10 +14,6 @@
       url: https://hugo1.jianghu.cfd/
       logo: images/jh-blogs/ico.png
       description: 不熟悉本站可阅读文档了解  
-    - title: 文档库第二入口（持续更新中）
-      url: https://docs.jianghu.cfd/
-      logo: images/jh-blogs/ico.png
-      description: 不熟悉本站可阅读文档了解
 
 - taxonomy: AI工具
   icon: fa-star
@@ -72,6 +68,47 @@
     - title: ResearchGate
       url: https://www.researchgate.net/
       description: ResearchGate，科研人员的社交网络与文献分享平台
+    - title: AISeek
+      url: https://www.aiseek.ai/
+      description: AISeek，基于人工智能的论文写作辅助工具
+    - title: Grammarly
+      url: https://www.grammarly.com/
+      description: Grammarly，英语语法检查和写作辅助工具
+    - title: Zotero
+      url: https://www.zotero.org/
+      description: Zotero，文献管理和引用工具
+    - title: EndNote
+      url: https://endnote.com/
+      description: EndNote，专业的文献管理和参考文献格式化工具
+    - title: Mendeley
+      url: https://www.mendeley.com/
+      description: Mendeley，文献管理和学术社交平台      
+
+- taxonomy: 国内云服务器
+  icon: fa-star
+  links: 
+    - title: 京东云
+      url: https://www.jdcloud.com/
+      description: 京东云，提供云计算、大数据、人工智能等一站式服务
+    - title: 华为云
+      url: https://www.huaweicloud.com/
+      description: 华为云，全球领先的云计算服务提供商
+    - title: 腾讯云
+      url: https://cloud.tencent.com/
+      description: 腾讯云，提供稳定、安全、高效的云服务
+
+- taxonomy: 网络服务
+  icon: fa-star
+  links: 
+    - title: Cloudflare
+      url: https://www.cloudflare.com/
+      description: 赛博活佛，提供CDN,DNS解析，域名托管等多种服务
+    - title: ClouDNS
+      url: https://www.cloudns.net/
+      description: ClouDNS，提供免费的DNS解析和域名管理服务
+    - title: USKG域名注册
+      url: https://nic.us.kg/
+      description: USKG域名注册，专业的域名注册和管理服务提供商      
       
 - taxonomy: 网络和浏览器相关
   icon: fa-star
