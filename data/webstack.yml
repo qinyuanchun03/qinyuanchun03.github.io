@@ -40,6 +40,31 @@
       url: https://gemini.google.com/
       description: 需要网络辅助才可以进去          
 
+- taxonomy: 电脑新手软件推荐
+  icon: fa-star
+  links: 
+    - title: 7-Zip
+      url: https://www.7-zip.org/
+      description: 7-Zip，开源免费的文件压缩和解压工具，支持多种格式
+    - title: Bandizip
+      url: https://www.bandisoft.com/bandizip/
+      description: Bandizip，轻量级压缩软件，界面简洁，功能强大
+    - title: PotPlayer
+      url: https://potplayer.daum.net/
+      description: PotPlayer，功能强大的多媒体播放器，支持多种音视频格式
+    - title: Visual Studio Code (VSCode)
+      url: https://code.visualstudio.com/
+      description: VSCode，微软开发的免费代码编辑器，支持多种编程语言
+    - title: Typora
+      url: https://typora.io/
+      description: Typora，简洁优雅的Markdown编辑器，实时预览
+    - title: Obsidian
+      url: https://obsidian.md/
+      description: Obsidian，基于Markdown的笔记工具，支持知识图谱
+    - title: 图吧工具箱
+      url: https://www.tbtool.cn/
+      description: 图吧工具箱，集成多种硬件检测和系统优化工具
+
 - taxonomy: 小游戏
   icon: fa-star
   links: 
