@@ -519,6 +519,7 @@
           url: https://blog1.jianghu.cfd/posts/mict.html
           description: 请点击反馈查看测评内容。
         - title: 一分机场
+          logo: images/favicons/一分机场.ico
           url: https://yfjc.xyz/#/register?code=ZCA61k3t
           description: 请去官网查查看。
         - title: 三分机场
