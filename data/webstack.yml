@@ -5,12 +5,15 @@
       links:
         - title: Google Scholar
           url: https://scholar.google.com/
+          logo: images/favicons/Google Scholar.ico
           description: 全球学术资源的搜索引擎。
         - title: PubMed
           url: https://pubmed.ncbi.nlm.nih.gov/
+          logo: images/favicons/PubMed.ico
           description: 生物医学领域的文献数据库。
         - title: arXiv
           url: https://arxiv.org/
+          logo: images/favicons/arXiv.ico
           description: 开放获取的学术论文预印本平台。
         - title: IEEE Xplore
           url: https://ieeexplore.ieee.org/
@@ -26,6 +29,7 @@
           description: 专业的文献管理和参考文献格式化工具。
         - title: Mendeley
           url: https://www.mendeley.com/
+          logo: images/favicons/Mendeley.ico
           description: 文献管理和学术社交平台。
 
     - term: 云服务器
@@ -35,9 +39,11 @@
           description: 提供云计算、大数据、人工智能等一站式服务。
         - title: 华为云
           url: https://www.huaweicloud.com/
+          logo: images/favicons/华为云.ico
           description: 全球领先的云计算服务提供商。
         - title: 腾讯云
           url: https://cloud.tencent.com/
+          logo: images/favicons/腾讯云.ico
           description: 提供稳定、安全、高效的云服务。
         - title: Vultr
           url: https://www.vultr.com/
@@ -50,24 +56,29 @@
       links:
         - title: 豆包AI
           url: https://www.doubao.com/
+          logo: images/favicons/豆包AI.ico
           description: 豆包AI，你的专属助手。
         - title: DeepSeek
           url: https://www.deepseek.com/
           description: DeepSeek，探索人工智能的无限可能。
         - title: Kimi AI助手
           url: https://kimi.moonshot.cn/
+          logo: images/favicons/Kimi AI助手.ico
           description: Kimi AI助手，支持生成PPT!
         - title: 讯飞星火AI
           url: https://xinghuo.xfyun.cn/
+          logo: images/favicons/讯飞星火AI.ico
           description: 国产科大讯飞AI。
         - title: 百度文心一言
           url: https://yiyan.baidu.com/welcome
+          logo: images/favicons/百度文心一言.ico
           description: 国产科大讯飞AI。
         - title: ChatGPT
           url: https://chatgpt.com/
           description: 需要网络辅助才可以进去。
         - title: Gemini
           url: https://gemini.google.com/
+          logo: images/favicons/Gemini.ico
           description: 需要网络辅助才可以进去。
 
 - taxonomy: 电脑与软件工具
@@ -88,22 +99,27 @@
       links:
         - title: PotPlayer
           url: https://potplayer.daum.net/
+          logo: images/favicons/PotPlayer.ico
           description: 功能强大的多媒体播放器，支持多种音视频格式。
     - term: 开发工具
       links:
         - title: Visual Studio Code (VSCode)
           url: https://code.visualstudio.com/
+          logo: images/favicons/Visual Studio Code (VSCode).ico
           description: 微软开发的免费代码编辑器，支持多种编程语言。
         - title: Typora
           url: https://typora.io/
+          logo: images/favicons/Typora.ico
           description: 简洁优雅的Markdown编辑器，实时预览。
         - title: Obsidian
           url: https://obsidian.md/
+          logo: images/favicons/Obsidian.ico
           description: 基于Markdown的笔记工具，支持知识图谱。
     - term: 系统工具
       links:
         - title: 图吧工具箱
           url: https://www.tbtool.cn/
+          logo: images/favicons/图吧工具箱.ico
           description: 集成多种硬件检测和系统优化工具。
 
 - taxonomy: 娱乐与休闲
@@ -113,6 +129,7 @@
       links:
         - title: 4399小游戏
           url: https://www.4399.com/
+          logo: images/favicons/4399小游戏.ico
           description: 4399小游戏，休闲娱乐的最佳选择。
         - title: 7K7K小游戏
           url: https://www.7k7k.com/
@@ -121,6 +138,7 @@
       links:
         - title: 落雪音乐免费下载+免费音源
           url: https://www.123684.com/s/AJ3VVv-IrcBd
+          logo: images/favicons/落雪音乐免费下载+免费音源.ico
           description: 免费开源的音乐软件，支持安卓和Windows，Linux（国产系统）。
         - title: 花花吧影视
           url: https://huaweiba.live/
@@ -148,6 +166,7 @@
       links:
         - title: ITDOG
           url: https://www.itdog.cn/
+          logo: images/favicons/ITDOG.ico
           description: 提供网络监控、Ping测试、路由追踪等工具。
         - title: WhatIsMyIP
           url: https://www.whatismyip.com/
@@ -159,9 +178,11 @@
       links:
         - title: Cloudflare
           url: https://www.cloudflare.com/
+          logo: images/favicons/Cloudflare.ico
           description: 赛博活佛，提供CDN,DNS解析，域名托管等多种服务。
         - title: ClouDNS
           url: https://www.cloudns.net/
+          logo: images/favicons/ClouDNS.ico
           description: 提供免费的DNS解析和域名管理服务。
         - title: USKG域名注册
           url: https://nic.us.kg/
@@ -177,6 +198,7 @@
           description: 用户脚本分享平台，支持多种浏览器。
         - title: OpenUserJS
           url: https://openuserjs.org/
+          logo: images/favicons/OpenUserJS.ico
           description: 开源的用户脚本分享平台。
         - title: Crx4Chrome
           url: https://www.crx4chrome.com/
@@ -186,6 +208,7 @@
           description: 国内Chrome扩展下载站点。
         - title: Crx搜搜
           url: https://www.crxsoso.com/
+          logo: images/favicons/Crx搜搜.ico
           description: 提供Chrome扩展的搜索和下载服务。
         - title: Chrome扩展迷
           url: https://www.extfans.com/
@@ -200,15 +223,18 @@
       links:
         - title: UserStyles
           url: https://userstyles.org/
+          logo: images/favicons/UserStyles.ico
           description: 浏览器样式美化资源分享平台。
         - title: iTab 新标签页
           url: https://www.itab.link/
+          logo: images/favicons/iTab 新标签页.ico
           description: 简洁高效的新标签页工具，支持个性化定制。
         - title: uBlock Origin
           url: https://ublockorigin.com/
           description: 高效、轻量级的广告拦截工具。
         - title: 沉浸式翻译
           url: https://immersivetranslate.com/
+          logo: images/favicons/沉浸式翻译.ico
           description: 提供网页和PDF的双语对照翻译功能。
 
 - taxonomy: 小说与阅读
@@ -227,17 +253,20 @@
           description: 免费小说聚集地。
         - title: 聚小说
           url: https://www.juxiaoshuo.net/
+          logo: images/favicons/聚小说.ico
           description: 免费小说聚集地。
     - term: 在线书库
       links:
         - title: Project Gutenberg
           url: https://www.gutenberg.org/
+          logo: images/favicons/Project Gutenberg.ico
           description: 提供超过6万本免费电子书。
         - title: Internet Archive
           url: https://archive.org/
           description: 数字图书馆，提供书籍、电影、音乐等资源。
         - title: Open Library
           url: https://openlibrary.org/
+          logo: images/favicons/Open Library.ico
           description: 开放的图书馆目录，提供数百万本电子书。
         - title: Google Books
           url: https://books.google.com/
@@ -272,6 +301,7 @@
       links:
         - title: 开源：阅读软件
           url: https://gedoor.github.io/download
+          logo: images/favicons/开源：阅读软件.ico
           description: 开源免费的手机端多格式阅读软件。
         - title: 开源：阅读软件：书源
           url: https://bolg.nanshunkj.com/2024/11/25/260.html
@@ -280,11 +310,13 @@
       links:
         - title: Obsidian笔记软件
           url: https://wwdx.lanzoue.com/b030yr97g
+          logo: images/favicons/Obsidian笔记软件.ico
           description: 免费多功能，可自定义云盘备份的笔记软件。
     - term: 应用商店
       links:
         - title: 安卓谷歌商店
           url: https://www.gndown.com/4319.html
+          logo: images/favicons/安卓谷歌商店.ico
           description: 请结合参考资料使用，避免影响正常使用。
 
 - taxonomy: 办公与设计资源
@@ -294,15 +326,19 @@
       links:
         - title: WPS聚合分享
           url: https://www.123684.com/s/AJ3VVv-MrcBd
+          logo: images/favicons/WPS聚合分享.ico
           description: 仅支持Win用户，国产系统和Linux用户请不要下载。
         - title: OfficeToolPlus部署工具
           url: https://otp.landian.vip/zh-cn/
+          logo: images/favicons/OfficeToolPlus部署工具.ico
           description: 免费的office安装激活工具，官方提供操作教学。
         - title: PDF24在线处理网站
           url: https://tools.pdf24.org/zh/
+          logo: images/favicons/PDF24在线处理网站.ico
           description: 免费的在线PDF处理工具，支持PDF转word等功能。
         - title: 1024程序员在线工具箱
           url: https://1024tools.com/
+          logo: images/favicons/1024程序员在线工具箱.ico
           description: 支持uuid生成，json格式化等多功能的程序员工具箱。
     - term: 模板资源
       links:
@@ -311,6 +347,7 @@
           description: 免费ppt模板下载站！！！
         - title: OfficePlus
           url: https://www.officeplus.cn/
+          logo: images/favicons/OfficePlus.ico
           description: 微软官方模板库，提供免费PPT、Word、Excel模板。
         - title: 第一PPT
           url: https://www.1ppt.com/
@@ -326,15 +363,18 @@
           description: 免费PPT模板、图表、背景和素材资源。
         - title: ExcelHome
           url: https://www.excelhome.net/
+          logo: images/favicons/ExcelHome.ico
           description: 提供Excel模板、教程和技巧分享。
         - title: 稻壳儿
           url: https://www.docer.com/
           description: WPS官方资源平台，部分免费PPT、Word、Excel模板。
         - title: Slidesgo
           url: https://www.slidesgo.com/
+          logo: images/favicons/Slidesgo.ico
           description: 提供免费PPT和Google Slides模板，设计精美。
         - title: Template.net
           url: https://www.template.net/
+          logo: images/favicons/Template.net.ico
           description: 免费办公模板资源，包括PPT、Word、Excel。
         - title: Canva
           url: https://www.canva.com/
@@ -347,20 +387,24 @@
       links:
         - title: 菜鸟教学
           url: https://www.runoob.com/
+          logo: images/favicons/菜鸟教学.ico
           description: 多语言，内容丰富的编程教学网站，提供各类案例解析。
         - title: w3School编程教学
           url: https://www.w3school.com.cn/html/index.asp
+          logo: images/favicons/w3School编程教学.ico
           description: 多语言，内容丰富的编程教学网站，提供各类案例解析。
     - term: 代码托管
       links:
         - title: GitHub
           url: https://github.com/
+          logo: images/favicons/GitHub.ico
           description: 全球最大的代码托管平台，支持开源项目和协作开发。
         - title: GitLab
           url: https://about.gitlab.com/
           description: 提供代码托管、CI/CD和DevOps工具的一体化平台。
         - title: Bitbucket
           url: https://bitbucket.org/
+          logo: images/favicons/Bitbucket.ico
           description: 支持Git和Mercurial的代码托管平台，集成Jira和Trello。
         - title: Gitee
           url: https://gitee.com/
@@ -370,21 +414,27 @@
           description: 老牌开源软件托管平台，提供代码托管和下载服务。
         - title: Codeberg
           url: https://codeberg.org/
+          logo: images/favicons/Codeberg.ico
           description: 基于Git的开源代码托管平台，注重隐私和自由。
         - title: GitKraken
           url: https://www.gitkraken.com/
+          logo: images/favicons/GitKraken.ico
           description: 提供Git客户端和代码托管服务，支持可视化操作。
         - title: Vercel
           url: https://vercel.com/
+          logo: images/favicons/Vercel.ico
           description: 支持前端项目的在线部署和托管，集成GitHub和GitLab。
         - title: Netlify
           url: https://www.netlify.com/
+          logo: images/favicons/Netlify.ico
           description: 提供静态网站托管和自动化部署服务。
         - title: Heroku
           url: https://www.heroku.com/
+          logo: images/favicons/Heroku.ico
           description: 支持多种编程语言的云应用托管平台。
         - title: Render
           url: https://render.com/
+          logo: images/favicons/Render.ico
           description: 提供Web服务、静态站点和数据库的托管与部署。
         - title: DigitalOcean App Platform
           url: https://www.digitalocean.com/products/app-platform/
@@ -494,15 +544,15 @@
       links:
         - title: 江湖笔者博客
           url: https://blog1.jianghu.cfd
-          logo: images/jh-blogs/ico.png
+          logo: images/favicons/江湖笔者博客.ico
           description: 作者的博客网站。
         - title: 博客防丢失链接
           url: https://go.jianghu.cfd
-          logo: images/jh-blogs/ico.png
+          logo: images/favicons/博客防丢失链接.ico
           description: 作者的博客网站。
         - title: 文档库（持续更新中）
           url: https://hugo1.jianghu.cfd/
-          logo: images/jh-blogs/ico.png
+          logo: images/favicons/文档库（持续更新中）.ico
           description: 不熟悉本站可阅读文档了解。
         - title: 问题反馈：看说明
           url: https://blog1.jianghu.cfd/talkback/
