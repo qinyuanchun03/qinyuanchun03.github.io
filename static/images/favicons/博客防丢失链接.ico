@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>江湖笔者玩电脑 - 简单的频道</title><meta name="author" content="江湖笔者"><meta name="copyright" content="江湖笔者"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="聚焦简单的攻略，便利你的上网冲浪">
+<meta property="og:type" content="website">
+<meta property="og:title" content="江湖笔者玩电脑">
+<meta property="og:url" content="https://blog1.jianghu.cfd/index.html">
+<meta property="og:site_name" content="江湖笔者玩电脑">
+<meta property="og:description" content="聚焦简单的攻略，便利你的上网冲浪">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog1.jianghu.cfd/img/ico.png">
+<meta property="article:author" content="江湖笔者">
+<meta property="article:tag" content="魔法,江湖导航,江湖笔者,小白教学,江湖笔者の博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog1.jianghu.cfd/img/ico.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blog1.jianghu.cfd/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//static.cloudflareinsights.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;5240dcba55024bedb39bf312590633d8&quot;}"></script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '江湖笔者玩电脑',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: true,
+  isToc: false,
+  postUpdate: '2025-01-12 12:05:08',
+  isShuoshuo: false
+}</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="江湖笔者玩电脑" type="application/atom+xml">
+</head><body><div id="web_bg" style="background-image: url(/img/back.png);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/ico.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/img/back.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">江湖笔者玩电脑</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fa fa-comments-o"></i><span> 分享</span></a></li><li><a class="site-page child" href="/photos/"><i class="fa-fw fa fa-camera-retro"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">江湖笔者玩电脑</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/nav.html" title="本站说明:迅速熟悉本站的用法"><i class="fas fa-thumbtack sticky"></i>本站说明:迅速熟悉本站的用法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-21T12:15:47.000Z" title="发表于 2024-11-21 20:15:47">2024-11-21</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%AF%B4%E6%98%8E/">说明</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AB%99%E7%82%B9%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/">站点使用方法</a></span></div><div class="content">认识主页面打开本站后，你会看到这样的页面只需要记住这两个必要的按钮的作用即可！ 其余部分还在完善当中！ 本站如何阅览，在这一部分用图例的方法给大家讲述 图一：主页面 图二：文章页面（下拉即可看到） 图三：阅读界面（点击主页面标题即可进入） 图四：评论功能 我有疑问？作者的小红书 qq交流频道 微信公众号 </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/newyear/" title="支持多种线路，解锁ChatGPT且优惠的节点盘点">支持多种线路，解锁ChatGPT且优惠的节点盘点</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-01-04T09:29:40.000Z" title="发表于 2025-01-04 17:29:40">2025-01-04</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%8A%82%E7%82%B9/">节点</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/INS/">INS</a></span></div><div class="content">...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/instools.html" title="好消息，再也不用担心加速器的问题了！">好消息，再也不用担心加速器的问题了！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-12-31T02:48:12.000Z" title="发表于 2024-12-31 10:48:12">2024-12-31</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/INS/">INS</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/">工具箱</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">资源分享</a></span></div><div class="content">你还在为了INS发愁？何不看看本文，帮你解决一半的问题！ 本次针对INS安卓和win用户专门整合了一些资源，帮助你解决使用INS的问题 本内容适合有一定折腾经验的用户，小白请仔细阅读后续的说明，多问些问题，会有有经验的人帮你，千万不要闭嘴不说话还乱折腾！ 本资源合集包含安卓端和WIN端所需的版本，仅包含软件本体，不包含订阅，白嫖的请自觉划走 接下来我会列出资源链接，供需要的用户下载  资源部分 请一定阅读上述说明再来下载，提交评论请按照帖子的格式回复，评论区已有案例，否则一律不回 下载设备要求：一台安卓手机，一台电脑（非国产系统） 接下来列出资源链接 首先准备好你的浏览器，不要图方便就在微信或者qq点，否则进不去！ 点击以下链接前往地址主页 |...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/mict.html" title="月付4.4，解锁流媒体，畅玩油管奈飞">月付4.4，解锁流媒体，畅玩油管奈飞</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-12-26T08:24:41.000Z" title="发表于 2024-12-26 16:24:41">2024-12-26</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90/">节点推荐</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Chat-GPT/">Chat GPT</a></span></div><div class="content">废话不多说，直接上链接首先是流媒体测试环节，测试节点为：hy2的SG节点，测试环境Windows，软件V2rayN SpeedTest测速 ChatGPT YouTube 4K 套餐价格入门款 支持流媒体解锁 100G流量 支持香港，日本，韩国，美国，新加坡等国家、 价格0.6美元  大杯款 支持流媒体解锁 500G流量 支持香港，日本，韩国，美国，新加坡等国家 价格1..2美元  超大杯 支持流媒体解锁 1000G流量 支持香港，日本，韩国，美国，新加坡等国家 价格2美元  不限量款 支持流媒体解锁 100G流量 支持香港，日本，韩国，美国，新加坡等国家 价格3美元  购买地址点击前往购买：官网地址 </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/talkback.html" title="问题反馈和提交">问题反馈和提交</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-12-26T03:54:58.000Z" title="发表于 2024-12-26 11:54:58">2024-12-26</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88/">问题反馈</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E4%BA%A4%E6%B5%81/">交流</a></span></div><div class="content">问题反馈格式问题描述，邮箱 魔法推荐格式预算，邮箱 提交方法在本贴下方评论区，留下你的邮箱，和内容，名称任写，提交后等待作者回复 </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/zhenghe.html" title="博客资源整合：从好用的网站到工具网站，一期总结到位">博客资源整合：从好用的网站到工具网站，一期总结到位</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-12-13T10:04:14.000Z" title="发表于 2024-12-13 18:04:14">2024-12-13</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%BA%90/">资源</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%95%B4%E5%90%88/">整合</a></span></div><div class="content">烟雨江南频道教学和资源分享大总结不定期更新，随时欢迎你的补充 软件部分显示格式： 软件名 下载地址  wps系列（包含金山pdf）点击下载：123网盘地址点击下载：WPS安卓解锁高级版点击下载 lxmusic和音源点击下载：123网盘地址 win Rime输入法官网下载 OCS网课助手点击下载 OfficeToolPlus官网官方教学作者自己的教学：点击前往 Spotify win 解锁版下载地址 谷歌浏览器便携版下载地址 360极速X浏览器绿色版下载地址 FinalShell破解版下载地址 7z压缩软件下载地址 OnlyOffice办公软件下载地址 bandi录屏软件下载地址 OBS直播录屏工具下载地址 格式工厂下载地址 PDF Guru工具下载地址 Adobe DC...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/cfnode.html" title="CFworkers节点工具和教程合集">CFworkers节点工具和教程合集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-12-13T05:18:33.000Z" title="发表于 2024-12-13 13:18:33">2024-12-13</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%8A%82%E7%82%B9/">节点</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%87%AA%E6%88%91%E6%90%AD%E5%BB%BA/">自我搭建</a></span></div><div class="content">解锁GPT，无限流量的节点，获取超简单需要用到的软件：安卓端：nekobox，v2rayNG iOS：shadowrocket win端：NekoRay，V2rayN nekoray&#x2F;box下载地址：点击查看 事先准备 重点：注册一个CF账号：点击前往 复制代码(下载脚本文件即可) 下载脚本  开始操作进入cf，点击workers &amp;...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/xui.html" title="八块钱一年的服务器，要什么自行车？">八块钱一年的服务器，要什么自行车？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-12-11T07:47:22.000Z" title="发表于 2024-12-11 15:47:22">2024-12-11</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%8A%82%E7%82%B9/">节点</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/vps/">vps</a></span></div><div class="content">事前准备一些说明和补充本期内容比较仓促，未能准备图片素材，文字若生涩，可查看下列参考教学  如何使用xui配置科学上网 xui安装教程 xui保姆级指南 xui面板配置tls加密 xui+CF搭建教程  自建节点推荐的VPS服务器购买以下任意一款，服务器IP支持Chat GPT    服务器提供商 配置（核心&#x2F;运存&#x2F;带宽） 购买地址 推荐购买项目 价格（换算前） 价格（换算后）    RN（适合初学者） 1H&#x2F;1G&#x2F;1Gbps 点击注册购买 2024黑五活动款 10.99美元&#x2F;年 80左右   艾云（适合初学者） 1H&#x2F;1G&#x2F;200M 点击注册购买 常规应用款Standard-V1 19.9HKD&#x2F;月 21左右   justhost香港 1H&#x2F;512M&#x2F;10M 点击注册购买 VPS Promo 8.54米 更多正在更新   justhost香港服务器测评几项配置如下  服务器测试地区：香港 价格：8.54&#x2F;年 月流量：无限制 基准测试脚本 curl -L...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/node.html" title="还在用盗版免费加速器？快来这里看看吧！">还在用盗版免费加速器？快来这里看看吧！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-12-04T08:12:47.000Z" title="发表于 2024-12-04 16:12:47">2024-12-04</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a></span></div><div class="content">好用节点推荐：支持GPT，低价好用自述本贴适合初学者，尚不具备自己的域名和需要使用节点进行操作的人群！ 节点推荐在此列出表格，供大家参考，主要参考以下内容  连通性，是否适合三大运营商 节点的流媒体解锁：是否支持GPT 价格不高，且达到1，2两点 购买需先查看说明...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/via.html" title="via如何下载，以及拦截广告？一篇文章教会你">via如何下载，以及拦截广告？一篇文章教会你</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-30T04:59:21.000Z" title="发表于 2024-11-30 12:59:21">2024-11-30</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/via%E6%B5%8F%E8%A7%88%E5%99%A8/">via浏览器</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%B0%8F%E8%80%8C%E7%BE%8E/">小而美</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/">广告屏蔽</a></span></div><div class="content"> Via浏览器，小而美  首先，下载via浏览器！点击这里就可以下载了→：下载地址 Via官网：这里！！ 其次，保存这些规则左侧为名称，右侧为链接 复制链接到浏览器的广告屏蔽部分即可导入，然后点击更新即可    AdRules AdBlock List 精简版 https://bitbucket.org/hacamer/adrules/raw/main/adblock_lite.txt    AdRules AdBlock List https://bitbucket.org/hacamer/adrules/raw/main/adblock.txt   乘风 广告规则 https://gcore.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/rule.txt   乘风 视频规则 https://gcore.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/mv.txt   ABP Merge...</div></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/ico.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">江湖笔者</div><div class="author-info-description">聚焦简单的攻略，便利你的上网冲浪</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/newyear/" title="支持多种线路，解锁ChatGPT且优惠的节点盘点">支持多种线路，解锁ChatGPT且优惠的节点盘点</a><time datetime="2025-01-04T09:29:40.000Z" title="发表于 2025-01-04 17:29:40">2025-01-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/instools.html" title="好消息，再也不用担心加速器的问题了！">好消息，再也不用担心加速器的问题了！</a><time datetime="2024-12-31T02:48:12.000Z" title="发表于 2024-12-31 10:48:12">2024-12-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/mict.html" title="月付4.4，解锁流媒体，畅玩油管奈飞">月付4.4，解锁流媒体，畅玩油管奈飞</a><time datetime="2024-12-26T08:24:41.000Z" title="发表于 2024-12-26 16:24:41">2024-12-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/talkback.html" title="问题反馈和提交">问题反馈和提交</a><time datetime="2024-12-26T03:54:58.000Z" title="发表于 2024-12-26 11:54:58">2024-12-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/zhenghe.html" title="博客资源整合：从好用的网站到工具网站，一期总结到位">博客资源整合：从好用的网站到工具网站，一期总结到位</a><time datetime="2024-12-13T10:04:14.000Z" title="发表于 2024-12-13 18:04:14">2024-12-13</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E8%8A%82%E7%82%B9/" style="font-size: 1.37em; color: #99a4b2">节点</a> <a href="/tags/ChatGPT/" style="font-size: 1.5em; color: #99a9bf">ChatGPT</a> <a href="/tags/%E4%BA%A4%E6%B5%81/" style="font-size: 1.1em; color: #999">交流</a> <a href="/tags/%E5%B7%A5%E5%85%B7%E7%AE%B1/" style="font-size: 1.1em; color: #999">工具箱</a> <a href="/tags/Chat-GPT/" style="font-size: 1.1em; color: #999">Chat GPT</a> <a href="/tags/%E6%95%B4%E5%90%88/" style="font-size: 1.1em; color: #999">整合</a> <a href="/tags/%E8%B5%84%E6%BA%90/" style="font-size: 1.1em; color: #999">资源</a> <a href="/tags/%E7%AB%99%E7%82%B9%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" style="font-size: 1.1em; color: #999">站点使用方法</a> <a href="/tags/%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90/" style="font-size: 1.1em; color: #999">节点推荐</a> <a href="/tags/via%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 1.1em; color: #999">via浏览器</a> <a href="/tags/vps/" style="font-size: 1.1em; color: #999">vps</a> <a href="/tags/%E8%AF%B4%E6%98%8E/" style="font-size: 1.1em; color: #999">说明</a> <a href="/tags/%E5%B0%8F%E8%80%8C%E7%BE%8E/" style="font-size: 1.1em; color: #999">小而美</a> <a href="/tags/%E8%87%AA%E6%88%91%E6%90%AD%E5%BB%BA/" style="font-size: 1.1em; color: #999">自我搭建</a> <a href="/tags/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/" style="font-size: 1.1em; color: #999">资源分享</a> <a href="/tags/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88/" style="font-size: 1.1em; color: #999">问题反馈</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 1.1em; color: #999">工具</a> <a href="/tags/INS/" style="font-size: 1.23em; color: #999ea6">INS</a> <a href="/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/" style="font-size: 1.1em; color: #999">广告屏蔽</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+    <ul class="card-archive-list">
+  
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2025/01/">
+          <span class="card-archive-list-date">一月 2025</span>
+          <span class="card-archive-list-count">1</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/12/">
+          <span class="card-archive-list-date">十二月 2024</span>
+          <span class="card-archive-list-count">7</span>
+        </a>
+      </li>
+    
+      <li class="card-archive-list-item">
+        <a class="card-archive-list-link" href="/archives/2024/11/">
+          <span class="card-archive-list-date">十一月 2024</span>
+          <span class="card-archive-list-count">5</span>
+        </a>
+      </li>
+    </ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">13</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-01-12T04:05:08.159Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/img/back.png);"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By 江湖笔者</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">一个简单的频道</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: str => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: subtitleType => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        btf.getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+btf.addGlobalFn('pjaxSendOnce', () => { typed.destroy() }, 'typedDestroy')
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["简单的频道"])
+  } else {
+    document.getElementById("subtitle").textContent = "简单的频道"
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback"defer></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="一个,简单的,频道" data-fontsize="15px" data-random="false" async="async"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
