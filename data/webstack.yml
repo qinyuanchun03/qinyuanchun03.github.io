@@ -1,4 +1,19 @@
-- taxonomy: 江湖笔者Linux模块化多功能脚本
+- taxonomy: 联系与反馈
+  icon: fas fa-envelope fa-lg
+  list:
+    - term: 联系作者
+      links:
+        - title: 博客防丢失链接
+          url: https://go.jianghu.cfd
+          description: 作者的博客网站。
+        - title: 文档库（持续更新中）
+          url: bizhe.jianghu.cfd
+          description: 不熟悉本站可阅读文档了解。
+        - title: 问题反馈：看说明
+          url: https://blog1.jianghu.cfd/talkback/
+          description: 想去催更，快去看看！（不要用代理进）。
+
+- taxonomy: AI开发项目（测试中）
   icon: fas fa-flask fa-lg
   list:
     - term: AI开发项目集合
@@ -591,21 +606,4 @@
           logo: images/favicons/Vultr.ico
           description: 高性能云服务器，支持按小时计费。
 
-- taxonomy: 联系与反馈
-  icon: fas fa-envelope fa-lg
-  list:
-    - term: 联系作者
-      links:
-        - title: 江湖笔者博客
-          url: https://blog1.jianghu.cfd
-          logo: images/favicons/江湖笔者博客.ico
-          description: 作者的博客网站。
-        - title: 博客防丢失链接
-          url: https://go.jianghu.cfd
-          description: 作者的博客网站。
-        - title: 文档库（持续更新中）
-          url: https://hugo1.jianghu.cfd/
-          description: 不熟悉本站可阅读文档了解。
-        - title: 问题反馈：看说明
-          url: https://blog1.jianghu.cfd/talkback/
-          description: 想去催更，快去看看！（不要用代理进）。
+
